@@ -10,6 +10,25 @@ body {
     background-color: black;
 }
 
+h2 {
+    color: #33A8DB;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+p {
+    color: white;
+}
+
+section {
+    margin: 100px auto;
+}
+
+/* 1 bloco da pagina */
+
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assets/banner.png');
     background-size: cover;
@@ -58,13 +77,39 @@ body {
 }
 
 .banner-content button {
-    color: #31A8DD;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 16px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
     background-color: transparent;
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 16px;
+    text-transform: uppercase;
+}
+
+/* 2 bloco da pagina */
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    color: white;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    padding: 16px;
+    margin: 0 auto 24px;
+    width: 530px;
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
 }
