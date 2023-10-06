@@ -27,6 +27,7 @@ section {
     margin: 100px auto;
 }
 
+
 /* 1 bloco da pagina */
 
 .banner {
@@ -91,8 +92,9 @@ section {
 /* 2 bloco da pagina */
 
 #course-content {
-    width: 800px;
     text-align: center;
+    width: 800px;
+
 }
 
 #course-content .modules-list {
@@ -102,11 +104,11 @@ section {
 #course-content .modules-list .module {
     background-color: #252525;
     border: 1px solid #33A8DB;
-    color: white;
-    border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
-    padding: 16px;
+    border-radius: 100px;
+    color: white;
     margin: 0 auto 24px;
+    padding: 16px;
     width: 530px;
 }
 
@@ -114,28 +116,48 @@ section {
     color: #33A8DB;
 }
 
+/* bloco 3 */
 #transform-world {
-    height: 560px;
-    background-size: cover;
-    background-image: url("../assets/woman-code.png");
     background-attachment: fixed;
-    border-top: 1px solid #33A8DB80;
+    background-image: url("../assets/woman-code.png");
+    background-size: cover;
     border-bottom: 1px solid #33A8DB80;
+    border-top: 1px solid #33A8DB80;
+    height: 560px;
     padding: 200px;
-  }
-  
-  #transform-world p {
-    font-weight: 900;
+}
+
+#transform-world p {
     font-size: 2.5rem;
+    font-weight: 900;
     max-width: 250px;
     text-shadow: 3px 2px #33A8DB;
-  }
-  
-  #professional-challenges {
+}
+
+/* bloco 4 */
+#professional-challenges {
     text-align: center;
     width: 800px;
-  }
-  
-  #professional-challenges img {
+}
+
+#professional-challenges img {
     margin: 32px 0;
-  }
+}
+
+
+footer {
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer .dio-logo {
+    width: 300px;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: 700;
+    text-decoration: none;
+}
